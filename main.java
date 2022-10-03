@@ -5,4 +5,6 @@ public class main{
         System.out.println(name.isEmpty());
         System.out.println("Hello Mac");
     }
+
+    
 }
