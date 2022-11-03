@@ -1,5 +1,4 @@
 public class const_overload {  
-    //instance variables of the class  
     int id;  
     String name;  
       
@@ -13,7 +12,6 @@ public class const_overload {
     }  
       
     public static void main(String[] args) {  
-    //object creation  
     const_overload s = new const_overload();  
     System.out.println("\nDefault Constructor values: \n");  
     System.out.println("Student Id : "+s.id + "\nStudent Name : "+s.name);  

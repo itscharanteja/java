@@ -15,6 +15,7 @@ class prime_num{
             }
             if(p==0)
             System.out.println(i);
+            s.close();
         }
     }
 }
