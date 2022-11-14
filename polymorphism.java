@@ -2,10 +2,8 @@ class A{
     void callme(){
         System.out.println("Inside A");
 
-
     }
 }
-
 class B extends A{
     void callme(){
         System.out.println("Inside B");
@@ -20,6 +18,9 @@ class C extends A{
 
     }
 }
+
+
+
 
 class polymorphism{
     public static void main(String args[]){
@@ -36,3 +37,4 @@ class polymorphism{
 
     }
 }
+
