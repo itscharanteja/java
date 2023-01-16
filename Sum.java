@@ -1,7 +1,7 @@
-
 public class Sum {
     public static void main(String args[]){
-        System.out.println("HEllo Mac");
+        System.out.println("Hello Mac");
     }
+
 
 }
