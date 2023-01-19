@@ -4,7 +4,7 @@ class prime_num{
         int n ;
         int p;
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter a number");
+        System.out.println("Enter a number: ");
         n = s.nextInt();
         for (int i=2;i<n;i++){
             p=0;
