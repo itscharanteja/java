@@ -15,7 +15,7 @@ public Calculator() {
 display = new JTextField(20);
 display.setEditable(false);
 JPanel panel = new JPanel();
-panel.setLayout(new GridLayout(4, 4));
+panel.setLayout(new GridLayout(5,4));
 buttons = new JButton[17];
 for (int i = 0; i < 17; i++) {
 buttons[i] = new JButton(labels[i]);
