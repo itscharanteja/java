@@ -1,21 +1,23 @@
-import javax.swing.*;    
-public class test {    
-    JFrame f;    
-    test(){    
-    f=new JFrame();    
-    String data[][]={ {"101","Amit","670000"},    
-                          {"102","Jai","780000"},    
-                          {"101","Sachin","700000"}};    
-    String column[]={"ID","NAME","SALARY"};         
-    JTable jt=new JTable(data,column);    
-    jt.setBounds(30,40,200,300);          
-    JScrollPane sp=new JScrollPane(jt);    
-    f.add(sp);          
-    f.setSize(300,400);    
-    f.setVisible(true);    
-}     
-public static void main(String[] args) {    
-    new test();    
-}    
-}
-
+class GreetingThread extends Thread {
+    private String message;
+    private int delay;
+public GreetingThread(String message, int delay) {
+        this.message = message;
+        this.delay = delay;
+    }
+@Override
+    public void run() {
+        while (true) {
+            System.out.println(message);
+            try {
+                Thread.sleep(delay * 1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();}}}}
+public class test {
+    public static void main(String[] args) {
+        Thread t1 = new GreetingThread("Good Morning", 1);
+        Thread t2 = new GreetingThread("Hello", 2);
+        Thread t3 = new GreetingThread("Welcome", 3);
+        t1.start();
+        t2.start();
+        t3.start();}}

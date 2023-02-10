@@ -3,11 +3,12 @@ class Matrix
 {
 	void matrixMul(int m, int n, int p,int q)
 	{
-		int[][] a,b,c,t;
+		int[][] a,b,c,t,z;
 		a = new int[m][n];
 		b = new int[p][q];
 		c = new int[m][q];
 		t = new int[q][m];
+		z = new int[m][n];
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the elements of matrix A: ");
 		for(int i = 0; i < m; i++)
@@ -63,7 +64,7 @@ class Matrix
 		s.close();
 	}
 }
-class Driver
+public class Mat
 {
 	public static void main(String[] args)
 	{

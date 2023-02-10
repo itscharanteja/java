@@ -3,14 +3,12 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class Calculator extends JFrame implements ActionListener {
-
 private JTextField display;
 private JButton buttons[];
 private String labels[] = { "7", "8", "9", "+", "4", "5", "6", "-", "1", "2", "3", "*", "0", ".", "=", "/", "AC" };
 private double result = 0.0;
 private boolean start = true;
 private String operator = "=";
-
 public Calculator() {
 display = new JTextField(20);
 display.setEditable(false);
@@ -21,14 +19,12 @@ for (int i = 0; i < 17; i++) {
 buttons[i] = new JButton(labels[i]);
 panel.add(buttons[i]);
 buttons[i].addActionListener(this);
-}
-add(display, BorderLayout.NORTH);
+}add(display, BorderLayout.NORTH);
 add(panel, BorderLayout.CENTER);
 setTitle("Calculator");
 setSize(300, 300);
 setVisible(true);
 }
-
 public void actionPerformed(ActionEvent e) {
 double second = 0.0;
 String current = e.getActionCommand();
@@ -38,8 +34,7 @@ current.equals("8") || current.equals("9")) {
 if (start) {
 display.setText("");
 start = false;
-}
-display.setText(display.getText() + current);
+}display.setText(display.getText() + current);
 } else if (current.equals("AC")) {
 result = 0.0;
 display.setText("");
@@ -78,9 +73,7 @@ display.setText("" + result);
 operator = current;
 start = true;
 }}
-}
-
-public static void main(String args[]) {
+}public static void main(String args[]) {
 new Calculator();
 }
 }

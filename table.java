@@ -2,14 +2,11 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.table.*;
-
 public class table extends JFrame implements ActionListener {
-
 private JTable table;
 private DefaultTableModel model;
 private JTextField tfRow, tfColumn;
 private JButton btnAdd, btnDelete;
-
 public table() {
 JPanel panel = new JPanel();
 panel.setLayout(new FlowLayout());
@@ -37,7 +34,6 @@ setSize(600, 300);
 setVisible(true);
 setDefaultCloseOperation(EXIT_ON_CLOSE);
 }
-
 public void actionPerformed(ActionEvent e) {
 if (e.getSource() == btnAdd) {
 int row = Integer.parseInt(tfRow.getText());
@@ -51,7 +47,6 @@ model.removeRow(row);
 }
 }
 }
-
 public static void main(String[] args) {
 new table();
 }
