@@ -1,5 +1,4 @@
 import java.sql.*;
-
 public class jdbcsql {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/customer_db";
