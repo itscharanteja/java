@@ -8,7 +8,6 @@ class Matrix
 		b = new int[p][q];
 		c = new int[m][q];
 		t = new int[q][m];
-		z = new int[m][n];
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the elements of matrix A: ");
 		for(int i = 0; i < m; i++)
