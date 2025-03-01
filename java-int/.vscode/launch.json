@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciExample1",
+            "request": "launch",
+            "mainClass": "FibonacciExample1",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch callbyref",
+            "request": "launch",
+            "mainClass": "callbyref",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch callbyvalue",
+            "request": "launch",
+            "mainClass": "callbyvalue",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch constructoroverloading",
+            "request": "launch",
+            "mainClass": "constructoroverloading",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch ex11",
+            "request": "launch",
+            "mainClass": "ex11",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch keylistner",
+            "request": "launch",
+            "mainClass": "keylistner",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch matrix1",
+            "request": "launch",
+            "mainClass": "matrix1",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch method_overload",
+            "request": "launch",
+            "mainClass": "method_overload",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch mouselistner",
+            "request": "launch",
+            "mainClass": "mouselistner",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch polymorphizm",
+            "request": "launch",
+            "mainClass": "polymorphizm",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch primenumber",
+            "request": "launch",
+            "mainClass": "primenumber",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch queue",
+            "request": "launch",
+            "mainClass": "queue",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch superdemo",
+            "request": "launch",
+            "mainClass": "superdemo",
+            "projectName": "java-int_45289389"
+        },
+        {
+            "type": "java",
+            "name": "Launch threadexample",
+            "request": "launch",
+            "mainClass": "threadexample",
+            "projectName": "java-int_45289389"
+        }
+    ]
+}
